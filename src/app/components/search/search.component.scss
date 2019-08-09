@@ -1,0 +1,46 @@
+.search-container,
+.item-list-container {
+  padding: 15px;
+}
+.search-container input {
+  border-radius: 5px;
+  padding: 5px;
+}
+.search-container button {
+  margin: 15px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  font-weight: 500;
+}
+.item-list-container .item-container {
+  padding: 5px 15px 5px 5px;
+  border: 1px solid #ddd;
+}
+.item-details-container label {
+  margin-bottom: 0;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+.item-details-container .genre-name {
+  font-style: italic;
+}
+.img-conatiner img {
+  max-width: 75px;
+}
+.item-details-container a {
+  font-size: 13px;
+  font-weight: 500;
+}
+a:hover {
+  cursor: pointer;
+}
+.fa.red-color {
+  color: red;
+}
+.fa.grey-color {
+  color: grey;
+}
